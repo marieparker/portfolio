@@ -1,3 +1,76 @@
-body {
-    background-color: gray;
+/*-----------
+     NAV
+------------*/
+nav {
+    background-color: $color1;
 }
+
+.name {
+    color: $color2;
+    margin: 0;
+    font-family: $fontSans;
+    font-weight: 400;
+    font-size: $fontSize * 3;
+    padding: $paddingSmall;
+}
+
+.link-on-dark {
+    color: $color2;
+    text-decoration: none;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu-button {
+    margin: 0;
+    color: $color2;
+    background-color: $color1;
+    border: none;
+    width: 100%;
+    padding: $paddingSmall;
+}
+
+.menu-button:hover {
+    background-color: lighten($color1, 10%);
+}
+
+.menu-button, .menu {
+    font-family: $fontSans;
+    font-weight: 700;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-link {
+    text-align: center;
+    padding-top: $paddingSmall;
+    padding-bottom: $paddingSmall;
+}
+
+.menu-link:hover {
+    background-color: lighten($color1, 10%);
+}
+
+.menu-link:active {
+    background-color: $color3;
+    color: $color1;
+}
+
+
+
+.background1, .background3 {
+    background-color: lighten($color1, 20%);
+    height: 100px;
+}
+
+.background2 {
+    background-color: $color2;
+    height: 100px;
+}
+

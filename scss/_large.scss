@@ -1,0 +1,21 @@
+.menu-button {
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.menu-link {
+    padding: 17% 0;
+    font-size: $fontSizeLarge;
+}
+
+.boundary {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
