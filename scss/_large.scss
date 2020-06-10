@@ -16,6 +16,18 @@
 .boundary {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.top-grid {
     display: grid;
     grid-template-columns: 55% 45%;
+}
+
+.certifications {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cert {
+    width: 20%;
 }

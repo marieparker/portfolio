@@ -436,7 +436,7 @@ template {
 /*-----------
      NAV
 ------------*/
-nav {
+nav, footer {
   background-color: #254441;
 }
 
@@ -499,12 +499,49 @@ nav {
 
 .background1, .background3 {
   background-color: #498680;
-  height: 100px;
+  height: 50vw;
+  max-height: 415px;
+}
+
+h2 {
+  color: #fffcf2;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  padding: 2%;
+}
+
+.placeholder {
+  background-color: #fffcf2;
+  border: solid black 1px;
+  box-shadow: 3px 3px 8px #94a187;
+  height: 50vw;
+  width: 80vw;
+  margin: 0 auto 3vw auto;
+  max-width: 700px;
+  display: flex;
+  max-height: 400px;
 }
 
 .background2 {
   background-color: #fffcf2;
-  height: 100px;
+}
+
+.about {
+  list-style-type: square;
+}
+.about li {
+  padding: 0.2em;
+}
+
+.certifications {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cert {
+  width: 30%;
 }
 
 @media only screen and (min-width: 700px) {
@@ -526,8 +563,20 @@ nav {
   .boundary {
     max-width: 700px;
     margin: 0 auto;
+  }
+
+  .top-grid {
     display: grid;
     grid-template-columns: 55% 45%;
+  }
+
+  .certifications {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .cert {
+    width: 20%;
   }
 }
 

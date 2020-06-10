@@ -1,7 +1,7 @@
 /*-----------
      NAV
 ------------*/
-nav {
+nav, footer {
     background-color: $color1;
 }
 
@@ -62,15 +62,51 @@ nav {
     color: $color1;
 }
 
-
-
 .background1, .background3 {
     background-color: lighten($color1, 20%);
-    height: 100px;
+    height: 50vw;
+    max-height: 415px;
+}
+
+h2 {
+    color: $color2;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $fontSans;
+    font-weight: 400;
+    padding: $paddingSmall;
+}
+
+.placeholder {
+    background-color: $color2;
+    border: solid black 1px;
+    box-shadow: 3px 3px 8px $color3;
+    height: 50vw;
+    width: 80vw;
+    margin: 0 auto 3vw auto;
+    max-width: 700px;
+    display: flex;
+    max-height: 400px;
 }
 
 .background2 {
     background-color: $color2;
-    height: 100px;
+}
+
+.about {
+    list-style-type: square;
+
+    li {
+        padding: .2em;
+    }
+}
+
+.certifications {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cert {
+    width: 30%;
 }
 
