@@ -1,3 +1,7 @@
+body {
+    background-color: $color2;
+}
+
 /*-----------
      NAV
 ------------*/
@@ -74,11 +78,11 @@ h2 {
     margin-bottom: 0;
     font-family: $fontSans;
     font-weight: 400;
-    padding: $paddingSmall;
+    padding: $paddingLarge $paddingSmall;
 }
 
 .placeholder {
-    background-color: $color2;
+    background-color: white;
     border: solid black 1px;
     box-shadow: 3px 3px 8px $color3;
     height: 50vw;
@@ -91,6 +95,7 @@ h2 {
 
 .background2 {
     background-color: $color2;
+    border: solid $color2 1vw;
 }
 
 .about {
@@ -108,5 +113,8 @@ h2 {
 
 .cert {
     width: 30%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px $color3;
+    margin: 1em;
 }
 
