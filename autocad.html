@@ -17,8 +17,8 @@
         <h1 class="name"><a class="link-on-dark" href="index.html">Marie Parker</a></h1>
         <button class="menu-button" onclick="toggleMenu()">Menu</button>
         <ul id="Menu" class="menu toggle">
-            <a class="link-on-dark" href=""><li class="menu-link">Solidworks</li></a>
-            <a class="link-on-dark" href=""><li class="menu-link">AutoCAD</li></a>
+            <a class="link-on-dark" href="solidworks.html"><li class="menu-link">Solidworks</li></a>
+            <a class="link-on-dark" href="autocad.html"><li class="menu-link">AutoCAD</li></a>
             <a class="link-on-dark" href="contact.html"><li class="menu-link">Contact</li></a>
         </ul>
       </div>
@@ -26,6 +26,11 @@
     <div class="background1">
       <div class="boundary">
         <h2>Experience with AutoCAD</h2>
+      </div>
+      <div class="drawing-toggle">
+          <div class="left-button" onclick="moveLeft()">&#8249;</div>
+          <img id="1" class="autocad" src="images/ScrewConveyor1.jpg">
+          <div class="right-button" onclick="moveRight()">&#8250;</div>
       </div>
     <div>
     <div class="background2">
@@ -35,5 +40,6 @@
     </div>
     <footer class="footer">Marie Parker 2020</footer>
     <script src="js/menuToggle.js"></script>
+    <script src="js/drawingToggle.js"></script>
 </body>
 </html>

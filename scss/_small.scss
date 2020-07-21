@@ -118,7 +118,30 @@ h2 {
     margin: 1em;
 }
 
+
+//AutoCAD styling
+.drawing-toggle {
+    display: flex;
+    margin: auto;
+    padding: $paddingSmall;
+}
+
 .autocad {
-    width: 400px;
-    height: auto;
+    width: 80%;
+    border: solid 1px $color4;
+}
+
+.left-button, .right-button {
+    width: 8%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: $color3;
+    color: lighten($color3, 50%);
+    padding-top: 20%;
+}
+
+.left-button:hover, .right-button:hover {
+    background-color: darken($color3, 30%);
+    color: lighten($color3, 20%);
 }
