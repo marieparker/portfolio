@@ -67,7 +67,7 @@ nav, footer {
 }
 
 .background1, .background3 {
-    background-color: lighten($color1, 20%);
+    background-color: lighten($color1, 5%);
     height: 50vw;
     max-height: 415px;
 }
@@ -126,6 +126,10 @@ h2 {
     padding: $paddingSmall;
 }
 
+.house {
+    padding-top: 3em;
+}
+
 .autocad {
     width: 80%;
     border: solid 1px $color4;
@@ -144,4 +148,19 @@ h2 {
 .left-button:hover, .right-button:hover {
     background-color: darken($color3, 30%);
     color: lighten($color3, 20%);
+}
+
+.description {
+    font-family: $fontSans;
+    text-align: center;
+    font-weight: 800;
+    padding: $paddingSmall;
+}
+
+.list-images {
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+    width: 85%;
+    
 }

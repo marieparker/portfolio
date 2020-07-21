@@ -433,19 +433,23 @@ template {
   display: none;
 }
 
+/*$color1: #254441;
+$color2: #fffcf2;
+$color3: #94a187;
+$color4: #ccc5b9;*/
 body {
-  background-color: #fffcf2;
+  background-color: #F2F4F3;
 }
 
 /*-----------
      NAV
 ------------*/
 nav, footer {
-  background-color: #254441;
+  background-color: #204B57;
 }
 
 .name {
-  color: #fffcf2;
+  color: #F2F4F3;
   margin: 0;
   font-family: "Thasadith", sans-serif;
   font-weight: 400;
@@ -454,7 +458,7 @@ nav, footer {
 }
 
 .link-on-dark {
-  color: #fffcf2;
+  color: #F2F4F3;
   text-decoration: none;
 }
 
@@ -464,15 +468,15 @@ nav, footer {
 
 .menu-button {
   margin: 0;
-  color: #fffcf2;
-  background-color: #254441;
+  color: #F2F4F3;
+  background-color: #204B57;
   border: none;
   width: 100%;
   padding: 2%;
 }
 
 .menu-button:hover {
-  background-color: #376561;
+  background-color: #2e6b7c;
 }
 
 .menu-button, .menu {
@@ -493,22 +497,22 @@ nav, footer {
 }
 
 .menu-link:hover {
-  background-color: #376561;
+  background-color: #2e6b7c;
 }
 
 .menu-link:active {
-  background-color: #94a187;
-  color: #254441;
+  background-color: #B7C3CD;
+  color: #204B57;
 }
 
 .background1, .background3 {
-  background-color: #498680;
+  background-color: #275b6a;
   height: 50vw;
   max-height: 415px;
 }
 
 h2 {
-  color: #fffcf2;
+  color: #F2F4F3;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Thasadith", sans-serif;
@@ -519,7 +523,7 @@ h2 {
 .placeholder {
   background-color: white;
   border: solid black 1px;
-  box-shadow: 3px 3px 8px #94a187;
+  box-shadow: 3px 3px 8px #B7C3CD;
   height: 50vw;
   width: 80vw;
   margin: 0 auto 3vw auto;
@@ -529,8 +533,8 @@ h2 {
 }
 
 .background2 {
-  background-color: #fffcf2;
-  border: solid #fffcf2 1vw;
+  background-color: #F2F4F3;
+  border: solid #F2F4F3 1vw;
 }
 
 .about {
@@ -548,7 +552,7 @@ h2 {
 .cert {
   width: 30%;
   border-radius: 15px;
-  box-shadow: 3px 3px 5px #94a187;
+  box-shadow: 3px 3px 5px #B7C3CD;
   margin: 1em;
 }
 
@@ -558,9 +562,13 @@ h2 {
   padding: 2%;
 }
 
+.house {
+  padding-top: 3em;
+}
+
 .autocad {
   width: 80%;
-  border: solid 1px #ccc5b9;
+  border: solid 1px #A9927D;
 }
 
 .left-button, .right-button {
@@ -568,14 +576,28 @@ h2 {
   text-align: center;
   font-size: 3em;
   font-weight: bolder;
-  background-color: #94a187;
+  background-color: #B7C3CD;
   color: white;
   padding-top: 18%;
 }
 
 .left-button:hover, .right-button:hover {
-  background-color: #48503f;
-  color: #c7cec0;
+  background-color: #60778b;
+  color: #f3f5f7;
+}
+
+.description {
+  font-family: "Thasadith", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  padding: 2%;
+}
+
+.list-images {
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+  width: 85%;
 }
 
 @media only screen and (min-width: 700px) {

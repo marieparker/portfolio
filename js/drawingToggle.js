@@ -1,7 +1,6 @@
-function moveLeft() {
+function moveLeft3() {
     
-    var picture = document.getElementsByClassName("autocad")[0].getAttribute('id');
-    console.log(picture);
+    var picture = document.getElementsByClassName("scroll")[0].getAttribute('id');
     picture = parseFloat(picture);
     picture = picture + 1;
 
@@ -9,17 +8,13 @@ function moveLeft() {
         picture = picture - 3;
     }
 
-    console.log(picture);
-
-    document.getElementsByClassName("autocad")[0].src = "images/ScrewConveyor" + picture + ".jpg";
-    document.getElementsByClassName("autocad")[0].id = picture;
-    console.log("images/ScrewConveyor" + picture + ".jpg")
+    document.getElementsByClassName("scroll")[0].src = "images/ScrewConveyor" + picture + ".jpg";
+    document.getElementsByClassName("scroll")[0].id = picture;
 }
 
-function moveRight() {
+function moveRight3() {
     
-    var picture = document.getElementsByClassName("autocad")[0].getAttribute('id');
-    console.log(picture);
+    var picture = document.getElementsByClassName("scroll")[0].getAttribute('id');
     picture = parseFloat(picture);
     picture = picture - 1;
 
@@ -27,9 +22,34 @@ function moveRight() {
         picture = picture + 3;
     }
 
-    console.log(picture);
+    document.getElementsByClassName("scroll")[0].src = "images/ScrewConveyor" + picture + ".jpg";
+    document.getElementsByClassName("scroll")[0].id = picture;
+}
 
-    document.getElementsByClassName("autocad")[0].src = "images/ScrewConveyor" + picture + ".jpg";
-    document.getElementsByClassName("autocad")[0].id = picture;
-    console.log("images/ScrewConveyor" + picture + ".jpg")
+function moveLeft4() {
+    
+    var picture = document.getElementsByClassName("scroll")[1].getAttribute('id');
+    picture = parseFloat(picture);
+    picture = picture + 1;
+
+    if (picture > 3) {
+        picture = picture - 4;
+    }
+
+    document.getElementsByClassName("scroll")[1].src = "images/ScrewConveyor" + picture + ".jpg";
+    document.getElementsByClassName("scroll")[1].id = picture;
+}
+
+function moveRight4() {
+    
+    var picture = document.getElementsByClassName("scroll")[1].getAttribute('id');
+    picture = parseFloat(picture);
+    picture = picture - 1;
+
+    if (picture < 0) {
+        picture = picture + 4;
+    }
+
+    document.getElementsByClassName("scroll")[1].src = "images/ArchitecturalProjectSingleStory" + picture + ".jpg";
+    document.getElementsByClassName("scroll")[1].id = picture;
 }
