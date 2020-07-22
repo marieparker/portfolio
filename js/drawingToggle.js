@@ -36,7 +36,7 @@ function moveLeft4() {
         picture = picture - 4;
     }
 
-    document.getElementsByClassName("scroll")[1].src = "images/ScrewConveyor" + picture + ".jpg";
+    document.getElementsByClassName("scroll")[1].src = "images/ArchitecturalProjectSingleStory" + picture + ".jpg";
     document.getElementsByClassName("scroll")[1].id = picture;
 }
 

@@ -559,7 +559,9 @@ h2 {
 .drawing-toggle {
   display: flex;
   margin: auto;
+  margin-bottom: 0;
   padding: 2%;
+  padding-bottom: 0;
 }
 
 .house {
@@ -567,8 +569,11 @@ h2 {
 }
 
 .autocad {
-  width: 80%;
-  border: solid 1px #A9927D;
+  width: 100%;
+}
+
+.autocad-drawing {
+  width: 100%;
 }
 
 .left-button, .right-button {
@@ -578,7 +583,7 @@ h2 {
   font-weight: bolder;
   background-color: #B7C3CD;
   color: white;
-  padding-top: 18%;
+  padding-top: 20%;
 }
 
 .left-button:hover, .right-button:hover {
@@ -598,6 +603,22 @@ h2 {
   margin: auto;
   margin-top: 3em;
   width: 85%;
+}
+
+.full-screen {
+  background-color: rgba(32, 75, 87, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+}
+.full-screen img {
+  width: auto;
+  height: 90vh;
+  display: block;
+  margin: 2em auto;
 }
 
 @media only screen and (min-width: 700px) {
@@ -633,6 +654,10 @@ h2 {
 
   .cert {
     width: 20%;
+  }
+
+  .left-button, .right-button {
+    padding-top: 22%;
   }
 }
 

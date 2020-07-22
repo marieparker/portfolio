@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="body" class="">
     <nav>
       <div class="boundary top-grid">
         <h1 class="name"><a class="link-on-dark" href="index.html">Marie Parker</a></h1>
@@ -27,31 +27,47 @@
       <div class="boundary">
         <h2>Experience with AutoCAD</h2>
       </div>
-      <div class="drawing-toggle">
+      <div class="drawing-toggle boundary">
           <div class="left-button" onclick="moveLeft3()">&#8249;</div>
-          <img id="1" class="autocad scroll" src="images/ScrewConveyor1.jpg">
+          <div id="10" class="autocad" onclick="fullScreen(this.id)">
+            <img id="1" class="autocad-drawing scroll" src="images/ScrewConveyor1.jpg">
+          </div>
           <div class="right-button" onclick="moveRight3()">&#8250;</div>
       </div>
       <div class="description">Screw Conveyor Engineering Drawings</div>
     <div>
     <div class="background2">
-        <div class="drawing-toggle house">
-            <div class="left-button" onclick="moveLeft4()">&#8249;</div>
-          <img id="3" class="autocad scroll" src="images/ArchitecturalProjectSingleStory3.jpg">
-          <div class="right-button" onclick="moveRight4()">&#8250;</div>
+        <div class="boundary">
+            <div class="drawing-toggle house">
+                <div class="left-button" onclick="moveLeft4()">&#8249;</div>
+                <div id="11" class="autocad" onclick="fullScreen(this.id)">
+                    <img id="3" class="autocad-drawing scroll" src="images/ArchitecturalProjectSingleStory3.jpg">
+                </div>
+                <div class="right-button" onclick="moveRight4()">&#8250;</div>
+            </div>
+            <div class="description">Single Story House Plans</div>
+            <div id="14" class="autocad" onclick="fullScreen(this.id)">
+                <img id="gear" class="autocad-drawing list-images" src="images/autoCADGear.jpg">
+            </div>
+            <div class="description">Sprocket Gear</div>
+            <div id="12" class="autocad" onclick="fullScreen(this.id)">
+                <img id="cattle" class="autocad-drawing list-images" src="images/UDOTCattleGuard.jpg">
+            </div>
+            <div class="description">UDOT Cattle Guard</div>
+            <div id="13" class="autocad" onclick="fullScreen(this.id)">
+                <img id="flume" class="drawing-autocad list-images" src="images/autoCADAnchor.jpg">
+            </div>
+            <div class="description">Centering Jig</div>
         </div>
-        <div class="description">Single Story House Plans</div>
-        <img class="autocad list-images" src="images/autoCADGear.jpg">
-        <div class="description">Sprocket Gear</div>
     </div>
     <div class="background3">
-        <img class="autocad list-images" src="images/UDOTCattleGuard.jpg">
-      <div class="description">UDOT Cattle Guard</div>
-      <img class="autocad list-images" src="images/Unit 9.6-Marie Parker.jpg">
-      <div class="description">Flume Engineering Drawing</div>
+        <div class="boundary">
+            
+        </div>
     </div>
     <footer class="footer">Marie Parker 2020</footer>
     <script src="js/menuToggle.js"></script>
     <script src="js/drawingToggle.js"></script>
+    <script src="js/fullscreen.js"></script>
 </body>
 </html>
