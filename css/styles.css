@@ -560,8 +560,7 @@ h2 {
   display: flex;
   margin: auto;
   margin-bottom: 0;
-  padding: 2%;
-  padding-bottom: 0;
+  padding: 0 2%;
 }
 
 .house {
@@ -596,6 +595,7 @@ h2 {
   text-align: center;
   font-weight: 800;
   padding: 2%;
+  color: #204B57;
 }
 
 .list-images {
@@ -615,8 +615,8 @@ h2 {
   z-index: 99;
 }
 .full-screen img {
-  width: auto;
-  height: 90vh;
+  width: 90%;
+  height: auto;
   display: block;
   margin: 2em auto;
 }
@@ -631,10 +631,18 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
   }
+  .menu :nth-child(2) {
+    grid-column-start: 1;
+  }
 
   .menu-link {
     padding: 17% 0;
     font-size: 1.2em;
+  }
+
+  .large-hide {
+    display: none;
+    width: 1px;
   }
 
   .boundary {
@@ -658,6 +666,11 @@ h2 {
 
   .left-button, .right-button {
     padding-top: 22%;
+  }
+
+  .full-screen img {
+    height: 100%;
+    width: auto;
   }
 }
 

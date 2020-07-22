@@ -124,8 +124,7 @@ h2 {
     display: flex;
     margin: auto;
     margin-bottom: 0;
-    padding: $paddingSmall;
-    padding-bottom: 0;
+    padding: 0 $paddingSmall;
 }
 
 .house {
@@ -160,6 +159,7 @@ h2 {
     text-align: center;
     font-weight: 800;
     padding: $paddingSmall;
+    color: $color1;
 }
 
 .list-images {
@@ -172,8 +172,8 @@ h2 {
 //FULL SCREEN OPTION
 .full-screen {
     img {
-        width: auto;
-        height: 90vh;
+        width: 90%;
+        height: auto;
         display: block;
         margin: 2em auto;
     }
