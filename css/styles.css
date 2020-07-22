@@ -638,16 +638,22 @@ video {
 .eDrawing {
   display: block;
   margin: auto;
+  margin-top: 3em;
   width: 95%;
   height: auto;
 }
 
 .eDrawing:hover {
   cursor: pointer;
+  box-shadow: 3px 3px 7px gray;
 }
 
 img.hide, iframe.hide {
   display: none;
+}
+
+#valveVideo {
+  height: 50vh;
 }
 
 .handle, .valve {
@@ -655,6 +661,10 @@ img.hide, iframe.hide {
   margin: 2em auto;
   margin-bottom: 0;
   width: 90%;
+  height: auto;
+}
+
+.handleDrawing, .valveDrawing {
   height: 60vh;
 }
 
@@ -733,12 +743,25 @@ img.hide, iframe.hide {
     grid-row-start: 2;
   }
 
+  .row-4 {
+    grid-row-start: 4;
+  }
+
   .eDrawing {
-    width: 700px;
+    width: 100%;
     height: auto;
   }
 
+  .align-bottom-cell {
+    align-self: end;
+  }
+
   iframe.handle, iframe.valve {
+    height: 80vh;
+  }
+
+  #valveVideo {
+    max-width: 75%;
     height: 80vh;
   }
 }

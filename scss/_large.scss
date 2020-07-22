@@ -70,12 +70,25 @@
     grid-row-start: 2;
 }
 
+.row-4 {
+    grid-row-start: 4;
+}
+
 //eDrawings
 .eDrawing {
-    width: 700px;
+    width: 100%;
     height: auto;
 }
 
+.align-bottom-cell {
+    align-self: end;
+}
+
 iframe.handle, iframe.valve {
+    height: 80vh;
+}
+
+#valveVideo {
+    max-width: 75%;
     height: 80vh;
 }

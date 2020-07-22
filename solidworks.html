@@ -44,17 +44,31 @@
             <div class="right-button" onclick="moveRight8()">&#8250;</div>
         </div>
         <div class="description">Flux Trap Handling Tool</div>
-        <div id="eDrawing1" class="" onclick="showHandle(this.id)">
-            <img id="handleImg" class="eDrawing handle" src="images/handle.jpg">
-            <iframe id="handle" class="eDrwaing handle hide" src=""></iframe>
-        </div>
-        <div class="description">Handle</div>
-        <div id="eDrawing2" class="" onclick="showValve(this.id)">
-            <img id="valveImg" class="eDrawing valve" src="images/valve.jpg">
-            <iframe id="valve" class="eDrwaing valve hide" src=""></iframe>
-        </div>
-        <div id="explodeVideo" class="description video" onclick="showExplode(this.id)">Butterly Valve </br><span class="video-link">Click here to View Valve Explode Video</span>
-            <iframe id="valveVideo" class="eDrawing hide valve"  src="https://www.youtube.com/embed/yW5AiHQiWkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <div class="small-icons boundary">
+            <div id="eDrawing1" class="align-bottom-cell" onclick="showHandle(this.id)">
+                <img id="handleImg" class="eDrawing handle" src="images/handle.jpg">
+                <iframe id="handle" class="eDrwaing handle handleDrawing hide" src=""></iframe>
+            </div>
+            <div class="description row-2">Handle</div>
+        
+            <div id="eDrawing2" class="align-bottom-cell" onclick="showValve(this.id)">
+                <img id="valveImg" class="eDrawing valve" src="images/valve.jpg">
+                <iframe id="valve" class="eDrwaing valve valveDrawing hide" src=""></iframe>
+            </div>
+            <div id="explodeVideo" class="description video row-2" onclick="showExplode(this.id)">Butterly Valve </br><span class="video-link">Click here to View Valve Explode Video</span>
+                <iframe id="valveVideo" class="eDrawing hide valve"  src="https://www.youtube.com/embed/yW5AiHQiWkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        
+            <div id="eDrawing3" class="align-bottom-cell" onclick="fullScreen(this.id)">
+                <img class="eDrawing" src="images/BearingHousingPlate-page-0.jpg">
+            </div>
+            <div class="description row-2">Bearing Housing Plate</div>
+        
+            <div id="eDrawing4" class="align-bottom-cell" onclick="fullScreen(this.id)">
+                <img class="eDrawing" src="images/BearingHousingPlate-page-1.jpg">
+            </div>
+            <div class="description row-4">Bearing Housing Plate with ORDINATE dimensions</div>
         </div>
     </div>
 

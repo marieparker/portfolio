@@ -201,20 +201,26 @@ video {
     z-index: 99;
 }
 
-//eDrawing 
+//eDrawing on SOLIDWORKS
 .eDrawing {
     display: block;
     margin: auto;
+    margin-top: 3em;
     width: 95%;
     height: auto;
 }
 
 .eDrawing:hover {
     cursor: pointer;
+    box-shadow: 3px 3px 7px gray;
 }
 
 img.hide, iframe.hide {
     display: none;
+}
+
+#valveVideo {
+    height: 50vh;
 }
 
 .handle, .valve {
@@ -222,6 +228,10 @@ img.hide, iframe.hide {
     margin: 2em auto;
     margin-bottom: 0;
     width: 90%;
+    height: auto;
+}
+
+.handleDrawing, .valveDrawing {
     height: 60vh;
 }
 
