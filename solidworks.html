@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="body" class="">
     <nav>
       <div class="boundary top-grid">
         <h1 class="name"><a class="link-on-dark" href="index.html">Marie Parker</a></h1>
@@ -44,6 +44,18 @@
             <div class="right-button" onclick="moveRight8()">&#8250;</div>
         </div>
         <div class="description">Flux Trap Handling Tool</div>
+        <div id="eDrawing1" class="" onclick="showHandle(this.id)">
+            <img id="handleImg" class="eDrawing handle" src="images/handle.jpg">
+            <iframe id="handle" class="eDrwaing handle hide" src=""></iframe>
+        </div>
+        <div class="description">Handle</div>
+        <div id="eDrawing2" class="" onclick="showValve(this.id)">
+            <img id="valveImg" class="eDrawing valve" src="images/valve.jpg">
+            <iframe id="valve" class="eDrwaing valve hide" src=""></iframe>
+        </div>
+        <div id="explodeVideo" class="description video" onclick="showExplode(this.id)">Butterly Valve </br><span class="video-link">Click here to View Valve Explode Video</span>
+            <iframe id="valveVideo" class="eDrawing hide valve"  src="https://www.youtube.com/embed/yW5AiHQiWkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 
     <div class="background3">
@@ -54,6 +66,7 @@
     <script src="js/menuToggle.js"></script>
     <script src="js/drawingToggle.js"></script>
     <script src="js/fullscreen.js"></script>
+    <script src="js/eDrawings.js"></script>
 
 </body>
 </html>

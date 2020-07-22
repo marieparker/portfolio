@@ -57,3 +57,25 @@
         width: auto;
     }
 }
+
+//Small Icon Layout
+.small-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: bottom;
+}
+
+.row-2 {
+    grid-row-start: 2;
+}
+
+//eDrawings
+.eDrawing {
+    width: 700px;
+    height: auto;
+}
+
+iframe.handle, iframe.valve {
+    height: 80vh;
+}
