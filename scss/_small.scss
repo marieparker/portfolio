@@ -1,5 +1,5 @@
 body {
-    background-color: $color2;
+    background-color: $color3;
 }
 
 /*-----------
@@ -94,8 +94,8 @@ h2 {
 }
 
 .background2 {
-    background-color: $color2;
-    border: solid $color2 1vw;
+    background-color: $color3;
+    margin: 0;
 }
 
 .about {
@@ -149,14 +149,14 @@ h2 {
     text-align: center;
     font-size: 3em;
     font-weight: bolder;
-    background-color: $color3;
-    color: lighten($color3, 50%);
+    background-color: lighten($color1, 5%);
+    color: $color2;
     padding-top: 20%;
 }
 
 .left-button:hover, .right-button:hover {
-    background-color: darken($color3, 30%);
-    color: lighten($color3, 20%);
+    background-color: darken($color3, 40%);
+    color: $color5;
 }
 
 .description {
