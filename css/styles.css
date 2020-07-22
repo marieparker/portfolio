@@ -605,6 +605,14 @@ h2 {
   width: 85%;
 }
 
+video {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  box-shadow: 3px 3px 7px gray;
+}
+
 .full-screen {
   background-color: rgba(32, 75, 87, 0.7);
   position: fixed;
