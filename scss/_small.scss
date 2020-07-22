@@ -131,11 +131,11 @@ h2 {
     padding-top: 3em;
 }
 
-.autocad {
+.autocad, .solidworks {
     width: 100%;
 }
 
-.autocad-drawing {
+.autocad-drawing, .solidworks-drawing {
     width: 100%;
 }
 
@@ -172,9 +172,10 @@ h2 {
 video {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 95%;
     height: auto;
     box-shadow: 3px 3px 7px gray;
+    margin-bottom: 3em;
 }
 
 //FULL SCREEN OPTION
