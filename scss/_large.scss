@@ -52,6 +52,7 @@
 
 .left-button, .right-button {
     padding-top: 22%;
+    width: 8%;
 }
 
 //FULL SCREEN IMAGES
@@ -78,7 +79,20 @@
     grid-row-start: 4;
 }
 
-//eDrawings
+
+//Medium Icon Layout
+.medium-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: bottom;
+
+.autocad-drawing:hover {
+        box-shadow: 1px 1px 10px $color3;
+    }
+}
+
+//eDrawings on Solidworks page
 .eDrawing {
     width: 100%;
     height: auto;
