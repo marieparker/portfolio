@@ -72,12 +72,17 @@ Background and General
 
 .background1, .background3 {
     background-color: lighten($color1, 5%);
-
 }
 
 .background1 {
     height: 50vw;
     max-height: 415px;
+}
+
+.background1-short {
+    background-color: lighten($color1, 5%);
+    height: 35vw;
+    max-height: 315px;
 }
 
 .background3 {
@@ -202,9 +207,12 @@ AutoCAD page styling and some Solidworks Page
 video {
     display: block;
     margin: auto;
+    padding: 2px;
+    background-color: white;
     width: 85%;
     height: auto;
     box-shadow: 3px 3px 7px gray;
+    border: 1px solid $color5;
     margin-bottom: 3em;
 }
 

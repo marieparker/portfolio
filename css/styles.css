@@ -517,6 +517,12 @@ Background and General
   max-height: 415px;
 }
 
+.background1-short {
+  background-color: #275b6a;
+  height: 35vw;
+  max-height: 315px;
+}
+
 .background3 {
   padding: 2%;
   padding-top: 4%;
@@ -637,9 +643,12 @@ AutoCAD page styling and some Solidworks Page
 video {
   display: block;
   margin: auto;
+  padding: 2px;
+  background-color: white;
   width: 85%;
   height: auto;
   box-shadow: 3px 3px 7px gray;
+  border: 1px solid #0A0908;
   margin-bottom: 3em;
 }
 
