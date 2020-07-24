@@ -85,6 +85,10 @@ Background and General
     max-height: 315px;
 }
 
+.background1-tiny {
+    background-color: lighten($color1, 5%);
+}
+
 .background3 {
     padding: $paddingSmall;
     padding-top: $paddingLarge;
@@ -274,4 +278,28 @@ img.hide, iframe.hide {
     transform: scale(1.15);
     text-decoration: underline;
     cursor: pointer;
+}
+
+//footer
+.footer {
+    margin: auto;
+    padding: $paddingSmall $paddingLarge;
+    width: 100%;
+}
+
+.footer-info {
+    display: flex;
+    margin: $paddingSmall;
+    justify-content: space-between;
+    color: $color2;
+    font-family: $fontSans;
+}
+
+.right {
+    padding-right: $paddingLarge;
+}
+
+.contact-footer {
+    position: absolute;
+    bottom: 0;
 }
