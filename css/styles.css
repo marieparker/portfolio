@@ -714,13 +714,12 @@ img.hide, iframe.hide {
 
 .footer {
   margin: auto;
-  padding: 2% 4%;
+  padding: 10px 4%;
   width: 100%;
 }
 
 .footer-info {
   display: flex;
-  margin: 2%;
   justify-content: space-between;
   color: #F2F4F3;
   font-family: "Thasadith", sans-serif;
@@ -733,6 +732,7 @@ img.hide, iframe.hide {
 .contact-footer {
   position: absolute;
   bottom: 0;
+  border-top: solid 50px #275b6a;
 }
 
 @media only screen and (min-width: 700px) {

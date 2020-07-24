@@ -283,13 +283,12 @@ img.hide, iframe.hide {
 //footer
 .footer {
     margin: auto;
-    padding: $paddingSmall $paddingLarge;
+    padding: 10px $paddingLarge;
     width: 100%;
 }
 
 .footer-info {
     display: flex;
-    margin: $paddingSmall;
     justify-content: space-between;
     color: $color2;
     font-family: $fontSans;
@@ -302,4 +301,5 @@ img.hide, iframe.hide {
 .contact-footer {
     position: absolute;
     bottom: 0;
+    border-top: solid 50px lighten($color1, 5%);
 }
