@@ -301,7 +301,19 @@ img.hide, iframe.hide {
 .contact-footer {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    border-right: none;
     border-top: solid 50px lighten($color1, 5%);
+}
+
+.right {
+    display: inline;
+    float: right;
+    padding-right: $paddingSmall;
+}
+
+.left {
+    padding-left: $paddingSmall;
 }
 
 /*---------

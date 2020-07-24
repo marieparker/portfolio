@@ -733,7 +733,19 @@ img.hide, iframe.hide {
 .contact-footer {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  border-right: none;
   border-top: solid 50px #275b6a;
+}
+
+.right {
+  display: inline;
+  float: right;
+  padding-right: 2%;
+}
+
+.left {
+  padding-left: 2%;
 }
 
 /*---------
