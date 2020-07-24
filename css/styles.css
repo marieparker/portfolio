@@ -581,6 +581,10 @@ Middle Area (Background2)
   margin: 1em;
 }
 
+.align-bottom-cell {
+  padding-top: 4%;
+}
+
 /*---------
 AutoCAD page styling and some Solidworks Page
 ---------*/
@@ -853,7 +857,7 @@ Contact page
   .medium-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
     justify-items: bottom;
   }
   .medium-icons .autocad-drawing:hover {
