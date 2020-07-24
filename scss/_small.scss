@@ -125,6 +125,7 @@ Middle Area (Background2)
 
 .about {
     list-style-type: square;
+    padding-top: $paddingSmall;
 
     li {
         padding: .2em;
@@ -133,7 +134,7 @@ Middle Area (Background2)
 
 .certifications {
     text-align: center;
-    margin: 0 auto;
+    margin: $paddingSmall auto;
 }
 
 .cert {

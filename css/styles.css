@@ -563,6 +563,7 @@ Middle Area (Background2)
 
 .about {
   list-style-type: square;
+  padding-top: 2%;
 }
 .about li {
   padding: 0.2em;
@@ -570,7 +571,7 @@ Middle Area (Background2)
 
 .certifications {
   text-align: center;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 .cert {
@@ -817,7 +818,7 @@ Contact page
 
   .certifications {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 4% auto;
   }
 
   .cert {
