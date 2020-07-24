@@ -505,54 +505,6 @@ nav, footer {
   color: #204B57;
 }
 
-#myNav .name {
-  color: #F2F4F3;
-  margin: 0;
-  font-family: "Thasadith", sans-serif;
-  font-weight: 400;
-  font-size: 3em;
-  padding: 2%;
-}
-#myNav .link-on-dark {
-  color: #F2F4F3;
-  text-decoration: none;
-}
-#myNav .toggle {
-  display: none;
-}
-#myNav .menu-button {
-  margin: 0;
-  color: #F2F4F3;
-  background-color: #204B57;
-  border: none;
-  width: 100%;
-  padding: 2%;
-}
-#myNav .menu-button:hover {
-  background-color: #2e6b7c;
-}
-#myNav .menu-button, #myNav .menu {
-  font-family: "Thasadith", sans-serif;
-  font-weight: 700;
-}
-#myNav .menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-#myNav .menu-link {
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-#myNav .menu-link:hover {
-  background-color: #2e6b7c;
-}
-#myNav .menu-link:active {
-  background-color: #B7C3CD;
-  color: #204B57;
-}
-
 /*-------------
 Background and General
 -------------*/
@@ -785,21 +737,39 @@ img.hide, iframe.hide {
 }
 
 /*---------
-CONTACT ME
+Contact page
 ---------*/
-.contactMe {
-  width: 95%;
-  padding: 2% 0px;
+.contact-info {
+  padding: 4%;
   margin: auto;
 }
-
-.btn-color {
-  background-color: #204B57;
-  color: #F2F4F3;
+.contact-info p {
+  color: #204B57;
+  font-family: "Thasadith", sans-serif;
+  font-weight: 800;
 }
 
-.btn-color:hover {
-  background-color: #51a7bf;
+.myPhoto {
+  float: left;
+  padding-right: 2%;
+}
+
+.emailMe {
+  padding: 1%;
+  background-color: #204B57;
+  padding-left: none;
+  text-decoration: none;
+  color: #F2F4F3;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.emailMe:hover {
+  font-size: 1.25em;
+  background-color: #F2F4F3;
+  border-radius: 7px;
+  color: #F2F4F3;
+  color: #204B57;
 }
 
 @media only screen and (min-width: 700px) {
@@ -819,26 +789,6 @@ CONTACT ME
   .menu-link {
     padding: 17% 0;
     font-size: 1.2em;
-  }
-
-  #myNav .menu-button {
-    display: none;
-  }
-  #myNav .menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
-  }
-  #myNav .menu :nth-child(2) {
-    grid-column-start: 1;
-  }
-  #myNav .menu-link {
-    padding: 17% 0;
-    font-size: 1.2em;
-  }
-  #myNav .large-hide {
-    display: none;
-    width: 1px;
   }
 
   .large-hide {
@@ -925,6 +875,19 @@ CONTACT ME
   #valveVideo {
     max-width: 75%;
     height: 80vh;
+  }
+
+  .myPhoto {
+    width: 180px;
+    height: auto;
+  }
+
+  .contact-info {
+    width: 700px;
+    padding: 2%;
+  }
+  .contact-info p {
+    font-size: 20px;
   }
 
   footer {
