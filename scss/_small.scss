@@ -289,7 +289,6 @@ img.hide, iframe.hide {
     margin: auto;
     padding: 10px $paddingLarge;
     padding-left: $paddingSmall;
-    width: 100%;
 }
 
 .footer-info {
@@ -297,10 +296,6 @@ img.hide, iframe.hide {
     justify-content: space-between;
     color: $color2;
     font-family: $fontSans;
-}
-
-.right {
-    padding-right: $paddingLarge;
 }
 
 .contact-footer {

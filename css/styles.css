@@ -721,7 +721,6 @@ img.hide, iframe.hide {
   margin: auto;
   padding: 10px 4%;
   padding-left: 2%;
-  width: 100%;
 }
 
 .footer-info {
@@ -729,10 +728,6 @@ img.hide, iframe.hide {
   justify-content: space-between;
   color: #F2F4F3;
   font-family: "Thasadith", sans-serif;
-}
-
-.right {
-  padding-right: 4%;
 }
 
 .contact-footer {
