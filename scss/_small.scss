@@ -66,6 +66,8 @@ nav, footer {
     color: $color1;
 }
 
+
+//Nav for contact page (overriding the built in properties that come with the form)
 #myNav {
     .name {
         color: $color2;
@@ -343,6 +345,7 @@ img.hide, iframe.hide {
 .footer {
     margin: auto;
     padding: 10px $paddingLarge;
+    padding-left: $paddingSmall;
     width: 100%;
 }
 

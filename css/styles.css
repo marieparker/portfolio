@@ -763,6 +763,7 @@ img.hide, iframe.hide {
 .footer {
   margin: auto;
   padding: 10px 4%;
+  padding-left: 2%;
   width: 100%;
 }
 
@@ -924,6 +925,10 @@ CONTACT ME
   #valveVideo {
     max-width: 75%;
     height: 80vh;
+  }
+
+  footer {
+    padding-left: none;
   }
 }
 
