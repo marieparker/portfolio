@@ -126,6 +126,8 @@ Middle Area (Background2)
 .about {
     list-style-type: square;
     padding-top: $paddingSmall;
+    font-family: $fontSans;
+    font-weight: 800;
 
     li {
         padding: .2em;
@@ -300,16 +302,14 @@ img.hide, iframe.hide {
 }
 
 .contact-footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     border-right: none;
     border-top: solid 50px lighten($color1, 5%);
 }
 
 .right {
-    display: inline;
-    float: right;
+    display: inline-block;
+    //float: right;
     padding-right: $paddingSmall;
 }
 
@@ -352,4 +352,16 @@ Contact page
     border-radius: 7px;
     color: $color2;
     color: $color1;
+}
+
+.hobbies {
+    font-family: $fontSans;
+    font-weight: 800;
+    margin-top: none;
+    clear: both;
+    padding-top: $paddingSmall;
+
+    .about {
+        margin-top: 0px;
+    }
 }
